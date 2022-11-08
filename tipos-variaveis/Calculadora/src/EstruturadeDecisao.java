@@ -65,6 +65,7 @@ public class EstruturadeDecisao {
             }
         }
     }
+    
 
     private static void ifSemFlecha(){
         int mes = 12;
@@ -97,14 +98,14 @@ public class EstruturadeDecisao {
         }
     }
 
-    private static void ifFerias(){
-        String mes = "julho";
-        if (mes == "julho" || mes == "dezembro" || mes == "janeiro") {
+    private static void ifFerias() {
+        String mes = "Julho";
+        if (mes == "Julho" || mes == "Dezembro" || mes == "Janeiro") {
             System.out.println("Férias");
         }
     }
 
-    private static void ifMenor(){
+    private static void ifMenor() {
 
         double salarioMensal = 11893.58d;
         double mediaSalario = 10500d;
@@ -187,11 +188,11 @@ public class EstruturadeDecisao {
 
     private static void switchFerias(){
 
-        String mes = "dezembro";
+        String mes = "Dezembro";
         switch(mes){
-            case "dezembro":
-            case "julho":
-            case "janeiro":
+            case "Dezembro":
+            case "Julho":
+            case "Janeiro":
                 System.out.println("Férias");
                 break;
             default:
